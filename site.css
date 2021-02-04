@@ -1,0 +1,219 @@
+* {
+  color: #8aa9bb;
+  text-align: center;
+}
+html {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)),
+    url(image/Logo.PNG);
+  background-size: 50px;
+  font-family: masonserif, arial;
+  font-size: 19px;
+}
+.main,
+.footer{
+  margin-left: 250px;
+  margin-right: 250px; 
+  margin-bottom: 50px;
+}
+/*Titres Paragraphes*/
+h1,
+h2,
+h3,
+h4,
+u {
+  color: #ffde59;
+}
+h1{
+    font-size: 53px;
+}
+p {
+  text-align: left;
+}
+.gauche {
+  text-align: left;
+}
+.droite {
+  text-align: right;
+}
+.centre {
+  text-align: center;
+}
+ul li{
+    text-align: left;
+    list-style: none;
+}
+ul li p image{
+    margin: 150px;
+}
+/*Menu*/
+header {
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  display: block;
+  width: auto;
+  height: 53px;
+  background-color: #ffde59;
+  margin: 0px;
+}
+nav ul {
+  overflow: hidden;
+}
+.menu {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.men {
+  float: right;
+}
+.men li {
+  display: inline-block;
+}
+.men li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px;
+}
+.men li a:hover {
+  border: 1px solid #040404;
+  box-shadow: inset 0 0 1em #4c6e82, 0 0 2em #7e8e65;
+  border-radius: 15px;
+}
+/*Liens*/
+.vert {
+  color: #545a23;
+}
+/*Image*/
+.logi {
+  float: left;
+  width: 50px;
+  margin: 0px;
+}
+.captu {
+  width: 400px;
+  float: left;
+}
+/*Intro*/
+.intro {
+  display: inline-block;
+  margin: 55px;
+}
+.intro img {
+  float: right;
+}
+.intro p {
+  width: 50%;
+}
+/*Compétences*/
+.ilame{
+  width: 75px;
+  height: 15px;
+  viewBox: ;
+}
+.lang ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+.lang li {
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+.lang p {
+  width: 75%;
+  /* margin-right: 50px; */
+  margin-left: 150px;
+}
+/*Progress*/
+progress {
+  flex-direction: row;
+  background-color: #7e8e65;
+}
+.c {
+  opacity: 0;
+  margin: 0px;
+}
+.c img{
+  width: 50px;
+  height: 2px;
+}
+/* .c:hover {
+  opacity: 100%;
+  transition: 0.4s;
+} */
+/*
+bouton*/
+.btn-pp a {
+  text-decoration: none;
+  margin: 45px;
+}
+.btnspp {
+  display: inline-block;
+}
+
+/*fiel*/
+.cod {
+  display: flex;
+}
+fieldset {
+  border-radius: 5%;
+}
+fieldset a img {
+  width: 400px;
+}
+fieldset a,
+fieldset img:hover {
+  width: 600px;
+  transition: 0.5s;
+}
+
+/*Section*/
+.musique {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+/*Modal*/
+.boutons {
+  padding: 10px;
+}
+button {
+  background-color: #ffde59;
+  border-radius: 20rem;
+  height: 45px;
+  font-family: orbiton;
+  padding: 10px;
+  color: #2d414c;
+  font-weight: bold;
+  /* display: inline;
+    float: left;
+    margin: 25px; */
+}
+/* button:hover{
+    width: 110%;
+    height: 170%;
+  } */
+dialog {
+  border-radius: 10px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  background-color: black;
+  border: solid 2px rgba(255, 222, 89, 0.4);
+}
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+dialog p {
+  margin-left: 355px;
+  margin-right: 355px;
+}
+/*Footer*/
+footer {
+  width: auto;
+  background: black;
+  height: 50px;
+  margin-left: 0px;
+  padding-bottom: 0px;
+}

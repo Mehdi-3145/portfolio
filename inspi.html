@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="js.js">
+    <link rel="stylesheet" href="inspi.css">
+    <title>Inspiration</title>
+    <style> 
+        #promptCompat{ 
+                display: none; 
+        } 
+        #promptCompat.no_dialog{ 
+                box-shadow: 0 0 5px 2px red; 
+                padding: 10px; 
+                display: block; 
+                text-align: center; 
+                font-weight: bold; 
+        } 
+        .boutons{ 
+                padding: 10px; 
+        } 
+        dialog{ 
+                border-radius: 10px; 
+                box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3); 
+        } 
+        dialog::backdrop{ 
+                background-color: rgba(0, 0, 0, 0.6); 
+        } 
+</style> 
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu">
+              <img src="image/Logo.PNG" alt="Mehdi" class="logi" />
+              <ul class="men" style="color: #ffde59">
+                <li>
+                  <a href="cv.html"> <strong style="color: #2d414c!important">CV</strong> </a>
+                </li>
+                <li>
+                    <a href="pt.html"><strong style="color: #2d414c!important">PortFolio</strong></a>
+                  </li>
+                <li>
+                  <a href="H.html"><strong style="color: #2d414c!important">Accueil</strong></a>
+                </li>
+                <li>
+                  <a href="#"><strong style="color: #2d414c!important">Index et Sources</strong></a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="desc">
+            <h1>Mes Inspirations</h1>
+            <p>Mes inspirations sont multiples je vais vous les exposer à petite échelle en les divisants en plusieurs catégories :
+                <a href="#MUS">Musiques</a>, 
+                <a href="#ART">Art</a>, 
+                <a href="#EV">Évènements</a>.
+            </p>
+        </section>
+        <hr>
+        <section class="Mu" >
+            <h2 id="MUS">Musiques</h2>
+            <p>Voici Quelques musique qui m'inspire dans tous les travaux que j'ai produits</p>
+            <section>
+                <dialog id="mydialogM" open> 
+                    <h3>Mylène Farmer - M'éffondre Live 2019</h3>
+              
+                    <video controls>
+                      <source src="vidéo/Mylène Farmer - M'effondre (Live 2019) (Clip officiel).mp4" type="video/mp4">
+                    </video>
+              
+                    <p>Cette chanson m'a inspiré autant de peine que d'espoir, cette répétition de "Jusque là tout va, Jusque là tout va bien" avec cette monter en pression est un style qui va se ressentir dans certaine de mes créations.
+                    J'ai choisi de ne mettre qu'une seule chanson de Mylène Farmer mais "<a href="https://www.dailymotion.com/video/x2rzdeh" style="color: #7e8e65 !important;">L'âme-stram-gram</a>" (Innamoramento 1999) et "<a href="https://www.youtube.com/watch?v=BJkQS-azyO0" style="color: #7e8e65 !important;">Untitled</a>" (Désobaissance 2018)</p>
+              
+                    <div class="boutons"><button onclick="$dialogM.close()">Fermer</button></div> 
+                  </dialog> 
+                  <div class="boutons"><button onclick="$dialogM.showModal()">MF</button></div>
+            </section>
+            <section class="mod btnF" tabindex="0">
+                <div class="zicM">
+                    <article >
+                        <span class="close" tabindex="0"><a href="#">Fermer X </a></span>
+                        <br>
+                        <h3>Feynman - The Farewell Courtyard</h3>
+                        <video controls>
+                            <source src="vidéo/The Farewell Courtyard.mp4" type="video/mp4">
+                        </video>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam fuga recusandae earum qui deleniti, illo iusto commodi cumque id cupiditate quam error ipsa fugit distinctio debitis ab, cum officia vitae harum consequuntur voluptatem vero porro non veritatis. Ullam numquam rem fugiat quas a velit beatae, repellendus at temporibus pariatur accusamus eius quod.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <section class="mod btnMG" tabindex="0">
+                <div class="zicM">
+                    <article >
+                        <span class="close" tabindex="0"><a href="#">Fermer X </a></span>
+                        <br>
+                        <h3>Mega Drive - Active Denial System</h3>
+                        <video controls>
+                            <source src="vidéo/Active Denial System.mp4" type="video/mp4">
+                        </video>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam fuga recusandae earum qui deleniti, illo iusto commodi cumque id cupiditate quam error ipsa fugit distinctio debitis ab, cum officia vitae harum consequuntur voluptatem vero porro non veritatis. Ullam numquam rem fugiat quas a velit beatae, repellendus at temporibus pariatur accusamus eius quod.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <section class="mod btnE" tabindex="0">
+                <div class="zicM">
+                    <article >
+                        <span id="close" tabindex="0"><a href="#">Fermer X </a></span>
+                        <br>
+                        <h3>Eagles - Hotel California</h3>
+                        <video controls>
+                            <source src="vidéo/Hotel California (2013 Remaster).mp4" type="video/mp4">
+                        </video>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam fuga recusandae earum qui deleniti, illo iusto commodi cumque id cupiditate quam error ipsa fugit distinctio debitis ab, cum officia vitae harum consequuntur voluptatem vero porro non veritatis. Ullam numquam rem fugiat quas a velit beatae, repellendus at temporibus pariatur accusamus eius quod.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <section class="mod btnX" tabindex="0">
+                <div class="zicM">
+                    <article >
+                        <span class="close" tabindex="0"><a href="#">Fermer X </a></span>
+                        <br>
+                        <h3>Christina Aguilera - Fighter</h3>
+                        <video controls>
+                            <source src="vidéo/Christina Aguilera - Fighter (Official Music Video).mp4" type="video/mp4">
+                        </video>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam fuga recusandae earum qui deleniti, illo iusto commodi cumque id cupiditate quam error ipsa fugit distinctio debitis ab, cum officia vitae harum consequuntur voluptatem vero porro non veritatis. Ullam numquam rem fugiat quas a velit beatae, repellendus at temporibus pariatur accusamus eius quod.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <section class="mod btnSE" tabindex="0">
+                <div class="zicM">
+                    <article >
+                        <span class="close" tabindex="0"><a href="#">Fermer X </a></span>
+                        <br>
+                        <h3>Sebastian - Yebo</h3>
+                        <video controls>
+                            <source src="vidéo/Yebo.mp4" type="video/mp4">
+                        </video>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam fuga recusandae earum qui deleniti, illo iusto commodi cumque id cupiditate quam error ipsa fugit distinctio debitis ab, cum officia vitae harum consequuntur voluptatem vero porro non veritatis. Ullam numquam rem fugiat quas a velit beatae, repellendus at temporibus pariatur accusamus eius quod.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <section class="mod btnLG" tabindex="0">
+                <div class="zicM">
+                    <article >
+                        <span class="close" tabindex="0"><a href="#">Fermer X </a></span>
+                        <br>
+                        <h3>Lady Gaga - Electric Chapel</h3>
+                        <video controls>
+                            <source src="vidéo/Lady Gaga - Electric Chapel (Official Audio).mp4" type="video/mp4">
+                        </video>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam fuga recusandae earum qui deleniti, illo iusto commodi cumque id cupiditate quam error ipsa fugit distinctio debitis ab, cum officia vitae harum consequuntur voluptatem vero porro non veritatis. Ullam numquam rem fugiat quas a velit beatae, repellendus at temporibus pariatur accusamus eius quod.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <section class="mod btnD" tabindex="0">
+                <div class="zicM">
+                    <article >
+                        <span class="close" tabindex="0"><a href="#">Fermer X </a></span>
+                        <br>
+                        <h3>Depeche Mode - Dead Of Night</h3>
+                        <video controls>
+                            <source src="vidéo/DEPECHE MODE - THE DEAD OF NIGHT.mp4" type="video/mp4">
+                        </video>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam fuga recusandae earum qui deleniti, illo iusto commodi cumque id cupiditate quam error ipsa fugit distinctio debitis ab, cum officia vitae harum consequuntur voluptatem vero porro non veritatis. Ullam numquam rem fugiat quas a velit beatae, repellendus at temporibus pariatur accusamus eius quod.
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <hr>
+        </section>
+        <section id="ART">
+
+        </section>
+        <section id="EV">
+            
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
